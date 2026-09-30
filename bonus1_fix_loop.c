@@ -4,9 +4,20 @@
 #include <stdio.h>
 
 int main(void) {
+    // 0以上の整数を扱う変数
     unsigned int i;
-    for (i = 10; i > 1; i--) {
+
+    // 10から1ずつ減らしていく
+    for (i = 10; ; i--) {
+        // 現在のiの値を表示
         printf("%u\n", i);
+
+        // unsigned intは負の数を扱えないため、
+        // 0になった時点でループを終了する
+        if (i == 0) {
+            break;
+        }
     }
-    printf("%u\n", i);
+
+    return 0;
 }
