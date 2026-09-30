@@ -8,4 +8,5 @@ int main(void) {
     for (i = 10; i > 0; i--) {
         printf("%u\n", i);
     }
+    printf("%u\n", i);
 }
