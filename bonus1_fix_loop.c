@@ -3,6 +3,9 @@
 #include <stdio.h>
 
 int main(void) {
+
+    printf("%d", 10)
+    
     unsigned int i;
 
     for (i = 10; ; i--) {
