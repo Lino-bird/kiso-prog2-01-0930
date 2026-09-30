@@ -2,10 +2,7 @@
 // 下のコードは無限ループになる。正しく10から0まで数え上げるように修正せよ。
 #include <stdio.h>
 
-int main(void) {
-
-    printf("%d", 10)
-    
+int main(void) {    
     unsigned int i;
 
     for (i = 10; ; i--) {
